@@ -1,0 +1,21 @@
+{
+  "name": "handy/module-profiler",
+  "description": "Magento 2 SQL Profiler - displays database queries",
+  "keywords": ["sql","database","profiler","magento2"],
+  "type": "magento2-module",
+  "version": "1.0.0",
+  "require": {
+    "magento/magento-composer-installer": "*"
+  },
+  "license": [
+    "Commercial"
+  ],
+  "autoload": {
+    "files": [
+      "registration.php"
+    ],
+    "psr-4": {
+      "Handy\\Profiler\\": ""
+    }
+  }
+}
